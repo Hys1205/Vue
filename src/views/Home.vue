@@ -4,6 +4,7 @@
 	<img alt="Vue logo" src="../assets/u.jpg">
 	<!-- <img alt="Vue logo" src="../assets/sr.gif"> -->
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<Hiword msg="dsd" :num="464611111"></Hiword>
   </div>
 </template>
 
@@ -14,7 +15,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
   }
 }
 </script>
