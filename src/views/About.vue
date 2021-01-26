@@ -7,6 +7,7 @@
 			<button @click="add">+</button>
 			<p>{{normal()}}</p>
 			<p>{{comput1}}</p>
+			<Hiword @toparent="method1"></Hiword>
 	</div>
   </div>
 </template>
@@ -18,6 +19,9 @@
 			}
 		},
 		methods:{
+			method1(e){
+				console.log("Abouot页面收到数据",e);
+			},
 			normal(){
 				console.log("普通方法执行");
 				return "普通方法"
